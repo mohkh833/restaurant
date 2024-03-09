@@ -1,7 +1,6 @@
 "use client"
 import React from "react"
 import Countdown from "react-countdown"
-
 const endingDate = new Date("2024-07-25")
 const CountDown = () => {
   return (

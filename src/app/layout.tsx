@@ -26,13 +26,13 @@ export default function RootLayout({
         <AuthProvider>
           <QueryProvider>
           <div>
-        <Notification />
-        <Navbar/>
-        {children}
-        <Footer/>
-        <ToastContainer position='bottom-right' theme='dark' autoClose={3000}/>
-        </div>
-        </QueryProvider>
+            <Notification />
+            <Navbar/>
+            {children}
+            <Footer/>
+            <ToastContainer position='bottom-right' theme='dark' autoClose={3000}/>
+          </div>
+          </QueryProvider>
         </AuthProvider>
         </body>
     </html>

@@ -34,10 +34,6 @@ const LoginPage = () => {
             <Image src="/google.png" alt="" width={20} height={20} className='object-contain' />
             <span>Sign in with Google</span>
           </button>
-          <button className='flex gap-4 p-4 ring-1 ring-blue-100 rounded-md'>
-            <Image src="/facebook.png" alt="" width={20} height={20} className='object-contain' />
-            <span>Sign in with Facebook</span>
-          </button>
           <p className='text-sm'>Have a problem? <Link className='underline' href="/">Contact us</Link></p>
         </div>
       </div>
